@@ -1,0 +1,10 @@
+.box {
+  display: flex;
+  justify-content: space-around;
+}
+
+.btn {
+  width: 10em;
+  height: 2em;
+  border: solid 5px black;
+}/*# sourceMappingURL=style.css.map */
