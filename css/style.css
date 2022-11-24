@@ -24,6 +24,7 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
   width: 10em;
   height: 2em;
   border: solid 5px #FA6444;
@@ -35,6 +36,7 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
   width: 7em;
   height: 7em;
   border: solid 5px #0CAD73;
@@ -48,6 +50,7 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
   width: 7em;
   height: 7em;
   background-color: #AD381D;
