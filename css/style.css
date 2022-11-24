@@ -1,6 +1,7 @@
 .box {
   display: flex;
   justify-content: space-around;
+  align-items: center;
 }
 
 html {
@@ -9,6 +10,14 @@ html {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Anek Devanagari", sans-serif;
+}
+
+p {
+  color: white;
+  text-align: center;
+  margin: 0;
+  font-weight: 500;
+  font-size: 1.2em;
 }
 
 .btn {
@@ -21,8 +30,26 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #FF7C5E;
   border-radius: 2em;
 }
-.btn p {
-  color: white;
-  text-align: center;
-  margin: 0;
+
+.square {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 7em;
+  height: 7em;
+  border: solid 5px #0CAD73;
+  background-color: #43FAB8;
+}
+.square p {
+  color: black;
+}
+
+.circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 7em;
+  height: 7em;
+  background-color: #AD381D;
+  border-radius: 50%;
 }/*# sourceMappingURL=style.css.map */

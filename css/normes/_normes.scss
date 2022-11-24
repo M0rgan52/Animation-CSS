@@ -1,6 +1,7 @@
 .box {
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
 html {
@@ -9,6 +10,14 @@ html {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Anek Devanagari', sans-serif; 
+}
+
+p {
+    color: white;
+    text-align: center;
+    margin: 0;
+    font-weight: 500;
+    font-size: 1.2em;
 }
 
 .btn {
@@ -21,9 +30,28 @@ h1, h2, h3, h4, h5, h6 {
     background-color: $color3;
     border-radius: 2em;
 
+}
+
+.square {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 7em;
+    height: 7em;
+    border: solid 5px $color2;
+    background-color: $color4;
+
     & p {
-        color: white;
-        text-align: center;
-        margin: 0;
+        color: black;
     }
+}
+
+.circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 7em;
+    height: 7em;
+    background-color: $color5;
+    border-radius: 50%;
 }
