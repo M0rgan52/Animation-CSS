@@ -3,8 +3,26 @@
   justify-content: space-around;
 }
 
+html {
+  font-family: "Patrick Hand", cursive;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Anek Devanagari", sans-serif;
+}
+
 .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 10em;
   height: 2em;
-  border: solid 5px black;
+  border: solid 5px #FA6444;
+  background-color: #FF7C5E;
+  border-radius: 2em;
+}
+.btn p {
+  color: white;
+  text-align: center;
+  margin: 0;
 }/*# sourceMappingURL=style.css.map */
