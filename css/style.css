@@ -52,4 +52,12 @@ p {
   height: 7em;
   background-color: #AD381D;
   border-radius: 50%;
+}
+
+.scale {
+  transition: transform 0.8s;
+  transform: scale(1);
+}
+.scale:hover {
+  transform: scale(1.3);
 }/*# sourceMappingURL=style.css.map */
