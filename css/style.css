@@ -4,6 +4,13 @@
   align-items: center;
 }
 
+.box__column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 html {
   font-family: "Patrick Hand", cursive;
 }
@@ -74,6 +81,9 @@ p {
   transform: scale(1.6);
 }
 
+.form {
+  margin: 2em 0;
+}
 .form label {
   margin-right: 1.5em;
 }
