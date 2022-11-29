@@ -2,7 +2,19 @@
     transition: transform 0.8s;
     transform: scale(1);
 
-    &:hover {
+    &__hover:hover {
         transform: scale(1.3);
+    }
+
+    &__active:active {
+        transform: scale(1.3);
+    }
+
+    &__both:hover {
+        transform: scale(1.3);
+    }
+
+    &__both:active {
+        transform: scale(1.6);
     }
 }
