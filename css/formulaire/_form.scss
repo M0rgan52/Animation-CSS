@@ -1,0 +1,24 @@
+.form {
+    & label {
+        margin-right: 1.5em;
+    }
+
+    & input {
+        border: 2px solid black;
+        border-radius: 3em;
+        font-size: 1.5rem;
+        padding: 10px 5px;
+        outline: none;
+        transition: all 0.4s;
+
+        &:focus {
+            border: 2px solid $color4;
+        }
+
+        // Laisse la pseudoclasse focus active tant que la saisie n'est pas fini. C'est plus agréable visuellement
+        &:not(:focus):invalid {
+            background-color: $color1;
+            border: 2px solid $color5;
+        }
+    }
+}

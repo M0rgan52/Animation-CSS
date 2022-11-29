@@ -72,4 +72,23 @@ p {
 }
 .scale__both:active {
   transform: scale(1.6);
+}
+
+.form label {
+  margin-right: 1.5em;
+}
+.form input {
+  border: 2px solid black;
+  border-radius: 3em;
+  font-size: 1.5rem;
+  padding: 10px 5px;
+  outline: none;
+  transition: all 0.4s;
+}
+.form input:focus {
+  border: 2px solid #43FAB8;
+}
+.form input:not(:focus):invalid {
+  background-color: #FA6444;
+  border: 2px solid #AD381D;
 }/*# sourceMappingURL=style.css.map */
