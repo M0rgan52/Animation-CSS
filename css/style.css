@@ -107,4 +107,13 @@ p {
 .form input:not(:focus):invalid {
   background-color: #FA6444;
   border: 2px solid #AD381D;
+}
+
+.btn__nxt:active + .circle__nxt {
+  transform: scale(1.5);
+}
+
+.circle__nxt {
+  transform: scale(0.8);
+  transition: transform 4s;
 }/*# sourceMappingURL=style.css.map */

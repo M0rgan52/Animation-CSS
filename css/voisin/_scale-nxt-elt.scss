@@ -1,0 +1,8 @@
+.btn__nxt:active + .circle__nxt {
+    transform: scale(1.5);
+}
+
+.circle__nxt {
+    transform: scale(0.8);
+    transition: transform 4s;
+}
