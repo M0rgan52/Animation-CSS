@@ -16,63 +16,67 @@
 <body>
     <h1>Animations CSS</h1>
 
-    <article>
-        <h2>Scale basique</h2>
+    <article class="part1">
 
-        <div class="box">
+        <article>
+            <h2>Scale basique</h2>
 
-            <div class="btn scale scale__hover">
-                <p>Passe sur moi</p>
+            <div class="box">
+
+                <div class="btn scale scale__hover">
+                    <p>Passe sur moi</p>
+                </div>
+
+                <div class="square scale scale__active">
+                    <p>Clique sur moi</p>
+                </div>
+
+                <div class="circle scale scale__both">
+                    <p>Passe sur moi et clique</p>
+                </div>
             </div>
 
-            <div class="square scale scale__active">
-                <p>Clique sur moi</p>
+        </article>
+
+        <article>
+            <h2>Formulaire</h2>
+
+            <div class="box__column">
+
+                <div class="form">
+                    <label for="">Veuillez renseigner votre email</label>
+                    <input type="email" name="" id="">
+                </div>
+
+                <div class="form">
+                    <label for="">Veuillez renseigner un nombre entier</label>
+                    <input type="number" name="" id="">
+                </div>
+
+                <div class="form">
+                    <label for="">Veuillez renseigner une date</label>
+                    <input type="date" name="" id="">
+                </div>
+
             </div>
 
-            <div class="circle scale scale__both">
-                <p>Passe sur moi et clique</p>
-            </div>
-        </div>
+        </article>
 
-    </article>
+        <article>
+            <h2>Animation d'un élément voisin</h2>
 
-    <article>
-        <h2>Formulaire</h2>
+            <div class="box__center">
 
-        <div class="box__column">
+                <div class="btn scale btn__nxt">
+                    <p>Clique sur moi...</p>
+                </div>
 
-            <div class="form">
-                <label for="">Veuillez renseigner votre email</label>
-                <input type="email" name="" id="">
-            </div>
-
-            <div class="form">
-                <label for="">Veuillez renseigner un nombre entier</label>
-                <input type="number" name="" id="">
+                <div class="circle scale circle__nxt">
+                    <p>...pour me faire grossir</p>
+                </div>
             </div>
 
-            <div class="form">
-                <label for="">Veuillez renseigner une date</label>
-                <input type="date" name="" id="">
-            </div>
-
-        </div>
-
-    </article>
-
-    <article>
-        <h2>Animation d'un élément voisin</h2>
-
-        <div class="box__center">
-
-            <div class="btn scale btn__nxt">
-                <p>Clique sur moi...</p>
-            </div>
-
-            <div class="circle scale circle__nxt">
-                <p>...pour me faire grossir</p>
-            </div>
-        </div>
+        </article>
 
     </article>
 
