@@ -1,5 +1,6 @@
 .melted {
     background-color: $color3;
+    transition: all 0.8s;
 
     &__hover:hover {
         background-color: $color2;

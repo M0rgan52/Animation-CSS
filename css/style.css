@@ -140,6 +140,7 @@ article {
 
 .melted {
   background-color: #FF7C5E;
+  transition: all 0.8s;
 }
 .melted__hover:hover {
   background-color: #0CAD73;
