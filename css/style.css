@@ -136,4 +136,11 @@ article {
 .circle__nxt {
   transform: scale(0.8);
   transition: transform 4s;
+}
+
+.melted {
+  background-color: #FF7C5E;
+}
+.melted__hover:hover {
+  background-color: #0CAD73;
 }/*# sourceMappingURL=style.css.map */
