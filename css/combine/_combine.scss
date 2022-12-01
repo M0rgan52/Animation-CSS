@@ -1,9 +1,11 @@
-.melted {
+.melted__scale {
     background-color: $color3;
-    transition: all 0.8s;
+    transform: scale(1);
+    transition: background-color 0.7s, transform 1.2s;
 
     &__hover:hover {
         background-color: $color2;
+        transform: scale(1.3);
 
     }
 }

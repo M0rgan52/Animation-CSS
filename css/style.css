@@ -138,10 +138,12 @@ article {
   transition: transform 4s;
 }
 
-.melted {
+.melted__scale {
   background-color: #FF7C5E;
-  transition: all 0.8s;
+  transform: scale(1);
+  transition: background-color 0.7s, transform 1.2s;
 }
-.melted__hover:hover {
+.melted__scale__hover:hover {
   background-color: #0CAD73;
+  transform: scale(1.3);
 }/*# sourceMappingURL=style.css.map */
