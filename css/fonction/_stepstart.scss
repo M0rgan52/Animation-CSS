@@ -1,0 +1,15 @@
+.stepstart {
+
+    transition: transform 1s step-start;
+    transform: scale(1);
+
+    &__hover:hover {
+
+        transform: scale(1.3);
+    }
+
+    &__active:active {
+
+        transform: scale(1.3);
+    }
+}

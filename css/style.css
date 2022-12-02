@@ -229,4 +229,15 @@ article {
 }
 .steps__active:active {
   transform: scale(1.3);
+}
+
+.stepstart {
+  transition: transform 1s step-start;
+  transform: scale(1);
+}
+.stepstart__hover:hover {
+  transform: scale(1.3);
+}
+.stepstart__active:active {
+  transform: scale(1.3);
 }/*# sourceMappingURL=style.css.map */
