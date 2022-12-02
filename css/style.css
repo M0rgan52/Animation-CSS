@@ -218,4 +218,15 @@ article {
 }
 .easeinout__active:active {
   transform: scale(1.3);
+}
+
+.steps {
+  transition: transform 1s steps(6, end);
+  transform: scale(1);
+}
+.steps__hover:hover {
+  transform: scale(1.3);
+}
+.steps__active:active {
+  transform: scale(1.3);
 }/*# sourceMappingURL=style.css.map */
