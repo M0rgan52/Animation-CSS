@@ -1,0 +1,15 @@
+.easeout {
+
+    transition: transform 1s ease-out;
+    transform: scale(1);
+
+    &__hover:hover {
+
+        transform: scale(1.3);
+    }
+
+    &__active:active {
+
+        transform: scale(1.3);
+    }
+}

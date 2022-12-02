@@ -195,4 +195,15 @@ article {
 }
 .easein__active:active {
   transform: scale(1.3);
+}
+
+.easeout {
+  transition: transform 1s ease-out;
+  transform: scale(1);
+}
+.easeout__hover:hover {
+  transform: scale(1.3);
+}
+.easeout__active:active {
+  transform: scale(1.3);
 }/*# sourceMappingURL=style.css.map */
