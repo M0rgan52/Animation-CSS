@@ -176,12 +176,23 @@ article {
 }
 
 .linear {
-  transition: transform 0.8s linear;
+  transition: transform 1s linear;
   transform: scale(1);
 }
 .linear__hover:hover {
   transform: scale(1.3);
 }
 .linear__active:active {
+  transform: scale(1.3);
+}
+
+.easein {
+  transition: transform 1s ease-in;
+  transform: scale(1);
+}
+.easein__hover:hover {
+  transform: scale(1.3);
+}
+.easein__active:active {
   transform: scale(1.3);
 }/*# sourceMappingURL=style.css.map */
