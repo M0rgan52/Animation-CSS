@@ -51,6 +51,7 @@ article {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
+  margin-bottom: 15em;
 }
 
 .btn {
