@@ -1,0 +1,15 @@
+.linear {
+
+    transition: transform 0.8s linear;
+    transform: scale(1);
+
+    &__hover:hover {
+
+        transform: scale(1.3);
+    }
+
+    &__active:active {
+
+        transform: scale(1.3);
+    }
+}

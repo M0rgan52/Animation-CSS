@@ -173,4 +173,15 @@ article {
 .melted__scale__both:active {
   background-color: #43FAB8;
   transform: scale(1.7);
+}
+
+.linear {
+  transition: transform 0.8s linear;
+  transform: scale(1);
+}
+.linear__hover:hover {
+  transform: scale(1.3);
+}
+.linear__active:active {
+  transform: scale(1.3);
 }/*# sourceMappingURL=style.css.map */
