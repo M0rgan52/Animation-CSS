@@ -1,0 +1,35 @@
+.cubicbezier {
+
+    &1 {
+        transition: transform 2.5s cubic-bezier(.1, -0.28, .87, .03);
+        transform: scale(1);
+
+    }
+
+    &2 {
+        transition: transform 2.5s cubic-bezier(.16, 1.27, .82, -0.53);
+        transform: scale(1);
+
+    }
+
+    &3 {
+        transition: transform 2.5s cubic-bezier(.42, .87, .42, 1.69);
+        transform: scale(1);
+    }
+
+    &__hover:hover {
+        transform: scale(1.3);
+    }
+
+    &__active:active {
+        transform: scale(1.3);
+    }
+
+    &__both:hover {
+        transform: scale(1.3);
+    }
+
+    &__both:active {
+        transform: scale(1.6);
+    }
+}
