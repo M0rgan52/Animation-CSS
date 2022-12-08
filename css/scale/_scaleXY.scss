@@ -4,7 +4,7 @@
 
 .circle__nxt__scalex {
     transform: scale(0.8);
-    transition: transform 4s;
+    transition: transform 2s;
 }
 
 .btn__nxt__scaley:active + .circle__nxt__scaley {
@@ -13,7 +13,7 @@
 
 .circle__nxt__scaley {
     transform: scale(0.8);
-    transition: transform 4s;
+    transition: transform 2s;
 }
 
 .btn__nxt__scalexy:active + .circle__nxt__scalexy {
@@ -22,6 +22,6 @@
 
 .circle__nxt__scalexy {
     transform: scale(0.8);
-    transition: transform 4s;
+    transition: transform 2s;
 }
 
