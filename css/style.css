@@ -126,6 +126,15 @@ article {
   transition: transform 4s;
 }
 
+.btn__nxt__scalexy:active + .circle__nxt__scalexy {
+  transform: scale(1.5, 0.5);
+}
+
+.circle__nxt__scalexy {
+  transform: scale(0.8);
+  transition: transform 4s;
+}
+
 .form {
   margin: 2em 0;
 }
