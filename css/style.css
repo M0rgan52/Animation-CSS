@@ -117,6 +117,15 @@ article {
   transition: transform 4s;
 }
 
+.btn__nxt__scaley:active + .circle__nxt__scaley {
+  transform: scaleY(1.5);
+}
+
+.circle__nxt__scaley {
+  transform: scale(0.8);
+  transition: transform 4s;
+}
+
 .form {
   margin: 2em 0;
 }
